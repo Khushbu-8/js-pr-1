@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gross sallary</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        var a = parseInt(prompt("Enter your sallary :- "));
+
+        var hra = a*10/100;
+        var da = a*5/100;
+        var ta = a*8/100;
+        var ans = a+hra+da+ta;
+
+        document.write(`<h3>Your sallary is : ${a}`);
+        document.write(`<h3>HRA 10% is : ${hra}`);
+        document.write(`<h3>DA 5% is : ${da}`);
+        document.write(`<h3>TA 8% is : ${ta}`);
+        
+        document.write(`<h2>Gross sallary is : ${ans}Rs.</h2>`);
+    </script>
+</body>
+</html>
